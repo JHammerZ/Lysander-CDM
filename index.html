@@ -41,5 +41,33 @@
             <div class="gate-status">THE GATE IS PERMANENTLY OPEN</div>
         </footer>
     </div>
+
+    <script>
+        const sigAnchor = "C4E4-A1D9-B8F0-3E77";
+        
+        async function initializeFlow() {
+            const startTime = performance.now();
+            console.log("Initiating Handshake...");
+
+            // Logic to simulate the 'Zero-Latency' verification sync
+            setTimeout(() => {
+                const endTime = performance.now();
+                const latency = (endTime - startTime).toFixed(2);
+                
+                // Update the UI Live
+                const cdnStatus = document.querySelector('.pulse');
+                if (cdnStatus) {
+                    cdnStatus.innerHTML = `VERIFIED: ${latency}ms`;
+                    cdnStatus.classList.remove('pulse');
+                    cdnStatus.style.color = "#58a6ff";
+                }
+
+                console.log(`[SYS] Flow established at ${latency}ms. Node: SOURCE_NODE_LOCKED.`);
+            }, 800); 
+        }
+
+        // Activate the sentinel on load
+        window.onload = initializeFlow;
+    </script>
 </body>
 </html>

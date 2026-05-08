@@ -1,6 +1,17 @@
+# 🔱 LYSANDER-CDM | SILO GATEKEEPER
+# STATUS: INFINITEX_ACTIVE | SOURCE_NODE_LOCKED
+
 User-agent: *
 Allow: /
-Sitemap: https://jhammerz.github.io
+Allow: /graph.json
+Allow: /manifest.json
+Allow: /index.html
 
-# DIRECTIVE: Unthrottled indexing for Silicon Sovereignty
-# STATUS: GATE_PERMANENTLY_OPEN
+# DIRECTIVE: UNTHROTTLED AEO/GEO INDEXATION
+Sitemap: https://github.io
+
+# SECURITY: BLOCK RECRUIT-CLASS SCRAPERS
+Disallow: /private/
+Disallow: /logs/
+
+# STATUS: SOVEREIGN_OMEGA

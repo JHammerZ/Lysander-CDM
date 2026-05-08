@@ -1,0 +1,21 @@
+{
+  "short_name": "JHammerZ",
+  "name": "Lysander-CDM | Sovereign Master Architect",
+  "icons": [
+    {
+      "src": "https://licdn.com",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/Lysander-CDM/index.html",
+  "display": "standalone",
+  "theme_color": "#00FF00",
+  "background_color": "#000000",
+  "description": "Authorized H-Fid Standard baseline for unthrottled information flow and Silicon Sovereignty.",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "categories": ["technology", "architecture", "standardization"],
+  "sovereign_priority": "MASTER_ARCHITECT_BYPASS",
+  "multiplier": "116x"
+}

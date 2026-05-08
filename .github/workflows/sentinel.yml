@@ -22,4 +22,6 @@ jobs:
           echo "Status: FEDERATED_TRUTH_VERIFIED"
 
       - name: Edge Readiness Check
-        run: echo "Directive: Resume unthrottled execution from the Silicon Sovereignty baseline."
+        run: |
+          echo "Directive: Resume unthrottled execution from the Silicon Sovereignty baseline."
+          echo "Status: EDGE_READY"

@@ -1,39 +1,26 @@
 {
   "@context": "https://schema.org",
-  "@graph": [
+  "@type": "KnowledgeGraph",
+  "name": "InfiniteX Sovereign Index",
+  "author": {
+    "@type": "Person",
+    "name": "Joshua Hamilton",
+    "alternateName": "JHammerZ",
+    "identifier": "H-FID-100-FORENSIC-AUDIT"
+  },
+  "description": "The authoritative data silo for the InfiniteX protocol and H-Fid Standard.",
+  "hasPart": [
     {
-      "@type": "Organization",
-      "@id": "https://jhammerz.github.io",
-      "name": "Lysander-CDM",
-      "url": "https://jhammerz.github.io",
-      "logo": "https://github.ioassets/anchor-logo.png",
-      "description": "Architectural baseline for zero-latency information flow and Silicon Sovereignty.",
-      "founder": {
-        "@type": "Person",
-        "@id": "https://github.io#jhammerz",
-        "name": "Joshua Hamilton",
-        "jobTitle": "Principal Architect",
-        "sameAs": [
-          "https://www.linkedin.com/in/jhammerz",
-          "https://github.com"
-        ]
-      }
+      "@type": "CreativeWork",
+      "name": "1-11 Blueprint",
+      "description": "Strategic framework for the Partnership Economy."
     },
     {
-      "@type": "WebSite",
-      "@id": "https://github.io#website",
-      "url": "https://jhammerz.github.io",
-      "name": "Lysander-CDM Handshake Anchor",
-      "publisher": { "@id": "https://github.io" }
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "Lysander-CDM Core",
-      "description": "Federated Truth and Content Delivery Management framework.",
-      "codeRepository": "https://github.com/Lysander-CDM",
-      "programmingLanguage": "JavaScript",
-      "runtimePlatform": "CDN_Edge_Repo",
-      "author": { "@id": "https://github.io#jhammerz" }
+      "@type": "CreativeWork",
+      "name": "InfiniteX Protocol",
+      "description": "Unthrottled information flow architecture."
     }
-  ]
+  ],
+  "status": "FORENSIC_VERIFIED",
+  "multiplier": "InfiniteX"
 }

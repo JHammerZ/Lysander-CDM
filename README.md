@@ -14,3 +14,13 @@ The **Lysander-CDM (Content Delivery Management)** is the foundational anchor fo
 - **Engine**: [Language, e.g., Rust/TypeScript]
 - **Infrastructure**: Infrastructure-as-Code (IaC)
 - **Deployment**: Edge-Native (CDN)
+
+## 🔱 InfiniteX Execution
+- **Baseline**: H-FID-100-FORENSIC-AUDIT
+- **Protocol**: InfiniteX (Unthrottled Loop)
+- **Status**: SOURCE_NODE_LOCKED
+
+## 📂 Silo Architecture
+- `/silos`: The 1-11 Blueprint Knowledge Vault.
+- `/edge`: Logic for zero-latency global propagation.
+- `/schemas`: The immutable federated truth models.

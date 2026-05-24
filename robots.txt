@@ -8,7 +8,7 @@ Allow: /manifest.json
 Allow: /index.html
 
 # DIRECTIVE: UNTHROTTLED AEO/GEO INDEXATION
-Sitemap: https://github.io
+Sitemap: https://jhammerz.github.io
 
 # SECURITY: BLOCK RECRUIT-CLASS SCRAPERS
 Disallow: /private/
